@@ -1,22 +1,133 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: qttasktree-everywhere-src
+Source: https://download.qt.io/archive/qt/*/submodules/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+Copyright: 2025, Jarek Kobus
+           2025, The Qt Company Ltd.
+License: LGPL-3 OR GPL-2 OR GPL-3
+
+Files: CMakeLists.txt
+       examples/CMakeLists.txt
+       examples/tasktree/CMakeLists.txt
+       examples/tasktree/demo/CMakeLists.txt
+       examples/tasktree/demo/main.cpp
+       examples/tasktree/demo/progressindicator.cpp
+       examples/tasktree/demo/progressindicator.h
+       examples/tasktree/demo/taskwidget.cpp
+       examples/tasktree/demo/taskwidget.h
+       examples/tasktree/imagescaling/CMakeLists.txt
+       examples/tasktree/imagescaling/downloaddialog.cpp
+       examples/tasktree/imagescaling/downloaddialog.h
+       examples/tasktree/imagescaling/imagescaling.cpp
+       examples/tasktree/imagescaling/imagescaling.h
+       examples/tasktree/imagescaling/main.cpp
+       examples/tasktree/trafficlight/CMakeLists.txt
+       examples/tasktree/trafficlight/glueinterface.h
+       examples/tasktree/trafficlight/main.cpp
+       examples/tasktree/trafficlight/recipe.cpp
+       examples/tasktree/trafficlight/recipe.h
+       examples/tasktree/trafficlight/trafficlight.cpp
+       examples/tasktree/trafficlight/trafficlight.h
+       src/CMakeLists.txt
+       src/tasktree/CMakeLists.txt
+       tests/CMakeLists.txt
+       tests/auto/CMakeLists.txt
+       tests/auto/tasktree/CMakeLists.txt
+       tests/auto/threadfunction/CMakeLists.txt
+Copyright: 2022-2025, The Qt Company Ltd.
+           2025, Jarek Kobus
+License: BSD-3-Clause
+
+Files: tests/auto/tasktree/tst_qttasktree.cpp
+       tests/auto/threadfunction/tst_qthreadfunction.cpp
+Copyright: 2025, Jarek Kobus
+           2025, The Qt Company Ltd.
+License: GPL-3
+
+Files: examples/tasktree/demo/doc/src/demo.qdoc
+       examples/tasktree/imagescaling/doc/src/imagescaling.qdoc
+       examples/tasktree/trafficlight/doc/src/trafficlight.qdoc
+       src/tasktree/doc/src/qttasktree-module.qdoc
+Copyright: 2025, The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+Files: debian/*
+Copyright: 2026 Patrick Franz <deltaone@debian.org>
+License: LGPL-3 OR GPL-2 OR GPL-3
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 3
+ as published by the Free Software Foundation.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in /usr/share/common-licenses/GPL-2.
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
+
+License: BSD-3-Clause
+ You may use this file under the terms of the BSD license as follows:
+ .
+ "Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of The Qt Company Ltd nor the names of its
+     contributors may be used to endorse or promote products derived
+     from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+
+License: GFDL-NIV-1.3
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.

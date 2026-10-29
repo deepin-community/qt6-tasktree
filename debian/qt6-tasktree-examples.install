@@ -1,0 +1,3 @@
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/tasktree/demo/task_tree_demo
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/tasktree/imagescaling/task_tree_imagescaling
+usr/lib/${DEB_HOST_MULTIARCH}/qt6/examples/tasktree/trafficlight/task_tree_trafficlight
